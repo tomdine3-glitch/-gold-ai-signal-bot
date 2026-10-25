@@ -1,11 +1,10 @@
 name: Gold AI Signal Bot
 on:
-workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
-test:
-runs-on: ubuntu-latest
-
-- name: Test Python
-
-run: python –version
+    test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Python
+        run: python –version
