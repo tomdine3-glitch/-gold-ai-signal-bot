@@ -4,7 +4,7 @@ on:
 
 jobs:
     test:
-    runs-on: ubuntu-latest
+    runs-on:ubuntu-latest
     steps:
-      - name: Test Python
-        run: python –version
+      - name:Test Python
+        run:python –version
